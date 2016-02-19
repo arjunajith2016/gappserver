@@ -36,6 +36,7 @@ def getalljson():
         "c10" : url_for('static', filename='c16.png'),
         "c11" : url_for('static', filename='c15.png'),
         "c12" : url_for('static', filename='c14.png'),
+        "gridTitle" : "All Categories"
     }
     return jsonify(data)
 
