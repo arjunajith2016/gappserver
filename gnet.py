@@ -42,7 +42,7 @@ def getalljson():
         "c16" : url_for('static', filename='c16.png'),
         "c17" : url_for('static', filename='c17.png'),
     }
-    return jsonify(data})
+    return jsonify(data)
 
 @app.route('/add', methods=['POST'])
 def add_entry():
