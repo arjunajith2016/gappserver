@@ -40,27 +40,27 @@ def getalljson():
             "gridTitle" : "All Categories"
         },
 
-        "announcerWidget" : {
-            "image1" : url_for('static', filename='p7.png'),
-            "text1" : "Fan Of Cakes?",
-            "subText1" : "Get 30% off on cakes : CAKE30",
+        "announcerWidget" : [{
+            "image" : url_for('static', filename='p7.png'),
+            "text" : "Fan Of Cakes?",
+            "subText" : "Get 30% off on cakes : CAKE30"},
 
-            "image2" : url_for('static', filename='p5.png'),
-            "text2" : "Cops Love Donuts",
-            "subText2" : "You will too! Get 10% off on first order.",
+            {"image" : url_for('static', filename='p5.png'),
+            "text" : "Cops Love Donuts",
+            "subText" : "You will too! Get 10% off on first order."},
 
-            "image3" : url_for('static', filename='sweets7.png'),
-            "text3" : "More Cakes!",
-            "subText3" : "We have every kind you can imagine.",
+            {"image" : url_for('static', filename='sweets7.png'),
+            "text" : "More Cakes!",
+            "subText" : "We have every kind you can imagine."},
 
-            "image4" : url_for('static', filename='honeycomb.png'),
-            "text4" : "The Best Of Nature",
-            "subText4" : "Now at your doorstep!",
+            {"image" : url_for('static', filename='honeycomb.png'),
+            "text" : "The Best Of Nature",
+            "subText" : "Now at your doorstep!"},
 
-            "image5" : url_for('static', filename='p9.png'),
-            "text5" : "I Don't Know",
-            "subText5" : "What these are. But they look tasty!"
-        }
+            {"image" : url_for('static', filename='p9.png'),
+            "text" : "I Don't Know",
+            "subText" : "What these are. But they look tasty!"
+        }]
     }
     return jsonify(data)
 
