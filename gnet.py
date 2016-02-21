@@ -41,23 +41,23 @@ def getalljson():
         },
 
         "announcerWidget" : [{
-            "image" : url_for('static', filename='p7.png'),
+            "image" : url_for('static', filename='p7.jpg'),
             "text" : "Fan Of Cakes?",
             "subText" : "Get 30% off on cakes : CAKE30"},
 
-            {"image" : url_for('static', filename='p5.png'),
+            {"image" : url_for('static', filename='p5.jpg'),
             "text" : "Cops Love Donuts",
             "subText" : "You will too! Get 10% off on first order."},
 
-            {"image" : url_for('static', filename='sweets7.png'),
+            {"image" : url_for('static', filename='sweets7.jpg'),
             "text" : "More Cakes!",
             "subText" : "We have every kind you can imagine."},
 
-            {"image" : url_for('static', filename='honeycomb.png'),
+            {"image" : url_for('static', filename='honeycomb.jpg'),
             "text" : "The Best Of Nature",
             "subText" : "Now at your doorstep!"},
 
-            {"image" : url_for('static', filename='p9.png'),
+            {"image" : url_for('static', filename='p9.jpg'),
             "text" : "I Don't Know",
             "subText" : "What these are. But they look tasty!"
         }]
