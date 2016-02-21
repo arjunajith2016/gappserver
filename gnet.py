@@ -24,19 +24,21 @@ def index():
 @app.route('/getalljson')
 def getalljson():
     data = {
-        "c1" : url_for('static', filename='c7.png'),
-        "c2" : url_for('static', filename='c8.png'),
-        "c3" : url_for('static', filename='c3.png'),
-        "c4" : url_for('static', filename='c10.png'),
-        "c5" : url_for('static', filename='c5.png'),
-        "c6" : url_for('static', filename='c12.png'),
-        "c7" : url_for('static', filename='c11.png'),
-        "c8" : url_for('static', filename='c9.png'),
-        "c9" : url_for('static', filename='c17.png'),
-        "c10" : url_for('static', filename='c16.png'),
-        "c11" : url_for('static', filename='c15.png'),
-        "c12" : url_for('static', filename='c14.png'),
-        "gridTitle" : "All Categories",
+        "gridWidget" : {
+            "c1" : url_for('static', filename='c7.png'),
+            "c2" : url_for('static', filename='c8.png'),
+            "c3" : url_for('static', filename='c3.png'),
+            "c4" : url_for('static', filename='c10.png'),
+            "c5" : url_for('static', filename='c5.png'),
+            "c6" : url_for('static', filename='c12.png'),
+            "c7" : url_for('static', filename='c11.png'),
+            "c8" : url_for('static', filename='c9.png'),
+            "c9" : url_for('static', filename='c17.png'),
+            "c10" : url_for('static', filename='c16.png'),
+            "c11" : url_for('static', filename='c15.png'),
+            "c12" : url_for('static', filename='c14.png'),
+            "gridTitle" : "All Categories",
+        }
 
         "announcerWidget" : {
             "image1" : url_for('static', filename='p7.png'),
