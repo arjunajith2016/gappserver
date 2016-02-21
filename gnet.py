@@ -60,7 +60,48 @@ def getalljson():
             {"image" : url_for('static', filename='p9.jpg'),
             "text" : "I Don't Know",
             "subText" : "What these are. But they look tasty!"
-        }]
+        }],
+
+        "pagerWidget" : [
+            {"image" : url_for('static', filename='marshmallow.jpg'),
+            "text" : "Marshmallow"},
+
+            {"image" : url_for('static', filename='lollipop.jpg'),
+            "text" : "Lollipop"},
+
+            {"image" : url_for('static', filename='kitkat.jpg'),
+            "text" : "Kitkat"},
+
+            {"image" : url_for('static', filename='jellybean.jpg'),
+            "text" : "Jellybean"},
+
+            {"image" : url_for('static', filename='ics.jpg'),
+            "text" : "Ice Cream Sandwich"},
+
+            {"image" : url_for('static', filename='honeycomb.jpg'),
+            "text" : "Honeycomb"},
+
+            {"image" : url_for('static', filename='gingerbread.jpg'),
+            "text" : "Gingerbread"},
+
+            {"image" : url_for('static', filename='froyo.jpg'),
+            "text" : "Froyo"},
+
+            {"image" : url_for('static', filename='eclair.jpg'),
+            "text" : "Eclair"},
+
+            {"image" : url_for('static', filename='donut.jpg'),
+            "text" : "Donut"},
+
+            {"image" : url_for('static', filename='cupcake.jpg'),
+            "text" : "Cupcake"},
+
+            {"image" : url_for('static', filename='brownie.jpg'),
+            "text" : "Brownie"},
+
+            {"image" : url_for('static', filename='angelcake.jpg'),
+            "text" : "Angel Cake"}
+        ]
     }
     return jsonify(data)
 
