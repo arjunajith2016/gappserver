@@ -36,7 +36,29 @@ def getalljson():
         "c10" : url_for('static', filename='c16.png'),
         "c11" : url_for('static', filename='c15.png'),
         "c12" : url_for('static', filename='c14.png'),
-        "gridTitle" : "All Categories"
+        "gridTitle" : "All Categories",
+
+        "announcerWidget" : {
+            "image1" : url_for('static', filename='p7.png'),
+            "text1" : "Fan Of Cakes?",
+            "subText1" : "Get 30% off on cakes : CAKE30",
+
+            "image2" : url_for('static', filename='p5.png'),
+            "text2" : "Cops Love Donuts",
+            "subText2" : "You will too! Get 10% off on first order.",
+
+            "image3" : url_for('static', filename='sweets7.png'),
+            "text3" : "More Cakes!",
+            "subText3" : "We have every kind you can imagine.",
+
+            "image4" : url_for('static', filename='honeycomb.png'),
+            "text4" : "The Best Of Nature",
+            "subText4" : "Now at your doorstep!",
+
+            "image5" : url_for('static', filename='p9.png'),
+            "text5" : "I Don't Know",
+            "subText5" : "What these are. But they look tasty!",
+        }
     }
     return jsonify(data)
 
