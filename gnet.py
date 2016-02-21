@@ -37,8 +37,8 @@ def getalljson():
             "c10" : url_for('static', filename='c16.png'),
             "c11" : url_for('static', filename='c15.png'),
             "c12" : url_for('static', filename='c14.png'),
-            "gridTitle" : "All Categories",
-        }
+            "gridTitle" : "All Categories"
+        },
 
         "announcerWidget" : {
             "image1" : url_for('static', filename='p7.png'),
@@ -59,7 +59,7 @@ def getalljson():
 
             "image5" : url_for('static', filename='p9.png'),
             "text5" : "I Don't Know",
-            "subText5" : "What these are. But they look tasty!",
+            "subText5" : "What these are. But they look tasty!"
         }
     }
     return jsonify(data)
