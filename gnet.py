@@ -24,7 +24,7 @@ def index():
 @app.route('/getalljson')
 def getalljson():
     data = {
-        "gridWidget" : {
+        "gridWidget" : 
             [{"image" : url_for('static', filename='c7.png')},
             {"image" : url_for('static', filename='c8.png')},
             {"image" : url_for('static', filename='c3.png')},
@@ -36,9 +36,9 @@ def getalljson():
             {"image" : url_for('static', filename='c17.png')},
             {"image" : url_for('static', filename='c16.png')},
             {"image" : url_for('static', filename='c15.png')},
-            {"image" : url_for('static', filename='c14.png')},
-            "gridTitle" : "All Categories"
-        }],
+            {"image" : url_for('static', filename='c14.png')}],
+
+        "gridTitle" : "All Categories",
 
         "announcerWidget" : [{
             "image" : url_for('static', filename='p7.jpg'),
